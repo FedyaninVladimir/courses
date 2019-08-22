@@ -1,0 +1,25 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --ignore './data' index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongodb-session": "^2.2.0",
+    "csurf": "^1.10.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.8",
+    "nodemon": "^1.19.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {}
+}
